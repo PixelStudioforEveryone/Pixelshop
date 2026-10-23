@@ -4,6 +4,14 @@
 
 Vivid（应用名「像素工坊」，vendor `Pixelshop`）是一个 HarmonyOS 影像工作台：ArkTS + ArkUI，覆盖图库、相机连接（蓝牙配对 + Wi-Fi 传输 + 遥控）、后台传输、LUT 风格库和无损参数编辑。
 
+## 项目宣传
+
+| 正式开源 | 相机品牌适配 | 影像创作工作流 |
+|:---:|:---:|:---:|
+| <img src="docs/promo/zh-CN/01-open-source.png" width="280" alt="像素工坊现已开源"> | <img src="docs/promo/zh-CN/02-camera-brands.png" width="280" alt="五大相机品牌、七条协议路线"> | <img src="docs/promo/zh-CN/03-creative-workflow.png" width="280" alt="连接、传输、调色与导出"> |
+
+已实现松下、索尼、佳能、富士、尼康五品牌协议适配。具体连接、传输与遥控能力依机型及固件而定，并非全机型实测承诺；详见[协议报告](docs/protocol-reports/00-overview.md)。
+
 ## 界面截图
 
 真机测试时截取，手机与 2in1 两种形态；蒙版相关测试图未收录。

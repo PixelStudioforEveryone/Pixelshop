@@ -4,6 +4,14 @@
 
 Vivid ("像素工坊", vendor `Pixelshop`) is a HarmonyOS imaging workspace built with ArkTS + ArkUI: photo library, camera connectivity (Bluetooth pairing + Wi-Fi transfer + remote control), background transfer, LUT style library and lossless parameter editing.
 
+## Project highlights
+
+| Open source | Camera connectivity | Creative workflow |
+|:---:|:---:|:---:|
+| <img src="docs/promo/en/01-open-source.png" width="280" alt="Pixelshop is now open source"> | <img src="docs/promo/en/02-camera-brands.png" width="280" alt="Five camera brands and seven protocol lines"> | <img src="docs/promo/en/03-creative-workflow.png" width="280" alt="Connect, transfer, grade and export"> |
+
+Protocol support is implemented for Panasonic, Sony, Canon, Fujifilm and Nikon. Connectivity, transfer and remote control vary by model and firmware; this is not a claim that every model has been device-tested. See the [protocol reports](docs/protocol-reports/en/00-overview.md).
+
 ## Screenshots
 
 Captured on a HarmonyOS phone and a 2-in-1 during device testing. Masking tests are not included.
