@@ -8,7 +8,7 @@ Vivid（应用名「像素工坊」，vendor `Pixelshop`）是一个 HarmonyOS �
 
 | # | 线路 | 配对 | 传输 | 控制 | 报告 |
 |---|------|------|------|------|------|
-| 1 | 松下 LUMIX Lab | Wi-Fi AP（BLE 仅用于广播识别） | `/remote/*` REST + DTLS 取景 | `camcmd` / `set-setting` / `get-state` | [01](docs/protocol-reports/01-panasonic-lumix-lab.md) |
+| 1 | 松下 LUMIX Lab | BLE GATT 注册（共享 `LumixImportPrototype`）+ 读 AP 凭据 | `/remote/*` REST + DTLS 取景 | `camcmd` / `set-setting` / `get-state` | [01](docs/protocol-reports/01-panasonic-lumix-lab.md) |
 | 2 | 松下 LUMIX Sync | BLE GATT 注册下发凭据 | `cam.cgi` + DLNA/DMS | `cam.cgi` + `X-SESSION_ID` | [02](docs/protocol-reports/02-panasonic-lumix-sync.md) |
 | 3 | 松下 Image App | 无蓝牙（手工/二维码/NFC 入网） | `cam.cgi` + DLNA/DMS | 只读探测 + 老世代命令 | [03](docs/protocol-reports/03-panasonic-image-app.md) |
 | 4 | 索尼 Alpha | BLE `8000EE00` 配对 + 凭据 | ISO 15740 PTP/IP :15740 | `0x9209` / `0x9205` / `0x9207` | [04](docs/protocol-reports/04-sony-alpha.md) |
