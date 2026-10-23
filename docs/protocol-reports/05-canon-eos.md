@@ -1,5 +1,7 @@
 # 05 · 佳能 EOS：BLE 配对、WAP 入网与 PTP/IP 传输/遥控
 
+> [English](en/05-canon-eos.md) | 简体中文
+
 > 代码基线 `18466be`。只读核查：`CanonProtocol.ets`、`CanonBleService.ets`、`CanonPtpIp.ets`、
 > `CanonControlService.ets`、`CanonProperties.ets`、`CanonImportService.ets`、`CanonModels.ets`、
 > `CanonModelImages.ets`，以及 `pages/home/CameraPage.ets` 的 Canon 分支；文档为

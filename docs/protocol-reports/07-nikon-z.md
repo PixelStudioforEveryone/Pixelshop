@@ -1,5 +1,7 @@
 # 尼康 Z 系列：SnapBridge BLE、LSS 认证与 PTP/IP 传输
 
+> [English](en/07-nikon-z.md) | 简体中文
+
 - 工程：VIVID（ArkTS），基线提交 `18466be`
 - 范围：Z 系列一条线。BLE 只承担“把 Wi-Fi 凭据交到手机”，图像与控制全部走 ISO 15740 PTP/IP（TCP 15740）
 - 依据：只读代码与仓库文档。凡推断均标“推断”并给出依据；密钥、UUID、操作码一律照代码/注释抄录，未新造任何值

@@ -1,5 +1,7 @@
 # 富士 FUJIFILM X 系列 · BLE + 私有 PTP-IP 技术报告
 
+> [English](en/06-fujifilm-x.md) | 简体中文
+
 > 基线提交 `18466be`。只读 `entry/src/main/ets/services/Fujifilm*.ets` 与 `docs/fujifilm/`，未接相机、未改代码。数值均可在 `FujifilmProtocol.ets` 或 `docs/fujifilm/NOTES_*.md` 找到出处；注释与 NOTES 标为【推断】/【未知】的，本文同样标注。逆向报告原件（`Fujifilm\apk\reports\00–04`、`data\*.csv`）不在本工作区，本文只转述 NOTES 已记录的部分，不替它补细节。
 
 ## 1. 线路定位

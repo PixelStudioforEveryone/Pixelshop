@@ -1,5 +1,7 @@
 # 松下三条线之二：LUMIX Sync 世代（BLE GATT 配对 + cam.cgi + DMS 拉取）
 
+> [English](en/02-panasonic-lumix-sync.md) | 简体中文
+
 - 基线提交：`18466be`（工作区 `C:\Users\HQ\DevEcoStudioProjects\VIVID`，ArkTS 工程 Vivid）
 - 证据来源：只读代码。主要文件 `LumixSyncControlService.ets`（2052 行）、`LumixSyncImageTransfer.ets`（1684 行）、`LumixImportPrototype.ets`（4450 行）、`LumixCameraService.ets`、`CameraSessionStore.ets`、`pages/home/CameraPage.ets`、`pages/CameraControlPage.ets`
 - 文中"官方"指代码注释记录的 LUMIX Sync 官方 APK（jadx）与真机抓包结论（注释带日期），不是本次重新反编译或抓包

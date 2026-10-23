@@ -1,5 +1,7 @@
 # 松下 LUMIX Lab 线路技术报告：Wi-Fi AP + /remote/* REST + DTLS 取景
 
+> [English](en/01-panasonic-lumix-lab.md) | 简体中文
+
 > 范围：`entry/src/main/ets/services/` 下的 Lumix 服务与相关控制页，基线提交 `18466be`。只读代码与注释，未修改任何源码。文中行号对应本仓库该提交；所有事实来自代码，推断处单独标注。
 
 ## 1. 线路定位

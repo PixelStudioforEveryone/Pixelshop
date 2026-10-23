@@ -1,5 +1,7 @@
 # 松下第三条线：LUMIX Image App / Lumix Link 世代（无蓝牙）
 
+> [English](en/03-panasonic-image-app.md) | 简体中文
+
 - 工程：Vivid（ArkTS，`C:\Users\HQ\DevEcoStudioProjects\VIVID`）
 - 基线提交：`18466be`（调色颜色面板加入自动/手动白平衡）
 - 方法：只读代码与文档，不运行设备、不改代码
