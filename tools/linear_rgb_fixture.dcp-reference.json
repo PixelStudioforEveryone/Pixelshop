@@ -1,0 +1,47 @@
+{
+  "contract": {
+    "inputSourceKind": "linear_camera_rgb",
+    "inputColorSpace": "camera-native-linear-unknown",
+    "inputTransferFunction": "linear",
+    "outputColorSpace": "DCP ColorMatrix1 result (XYZ/reference space requires profile illuminant handling)",
+    "dcpApplied": true,
+    "stagesApplied": [
+      "ColorMatrix1"
+    ],
+    "stagesNotApplied": [
+      "black-level",
+      "white-level",
+      "white-balance",
+      "camera-calibration",
+      "forward-matrix",
+      "tone-curve",
+      "hue-sat-map",
+      "look-table",
+      "display encoding"
+    ],
+    "warning": "Reference only; do not use as a complete DCP renderer or display-ready image."
+  },
+  "dcp": {
+    "sourceFile": "C:\\ProgramData\\Adobe\\CameraRaw\\CameraProfiles\\Camera\\Panasonic DC-S1RM2\\Panasonic DC-S1RM2 Camera Natural.dcp",
+    "uniqueCameraModel": "Panasonic DC-S1RM2",
+    "profileName": "Camera Natural",
+    "matrixTag": "ColorMatrix1"
+  },
+  "samples": [
+    [
+      0.09756,
+      0.18610200000000002,
+      0.12807
+    ],
+    [
+      0.31555999999999995,
+      0.22575600000000007,
+      0.157982
+    ],
+    [
+      -0.09060399999999999,
+      0.529048,
+      0.518764
+    ]
+  ]
+}

@@ -1,0 +1,63 @@
+VIVID 本地 AI 蒙版所用模型与运行时的许可与版权声明
+=====================================================================
+
+本目录下的模型权重仅在设备本地、离线运行，不会上传任何用户图像。以下为各组件
+的版权归属与许可条款，分发本应用时必须随附本文件。
+
+-------------------------------------------------------------------------------------
+1. ncnn —— 推理运行时
+-------------------------------------------------------------------------------------
+文件：由 entry/src/main/cpp/third_party/ncnn/ 静态链接进 libvivid_ai.so
+来源：https://github.com/Tencent/ncnn  (release 20260526, HarmonyOS 预编译包)
+许可：BSD 3-Clause License
+
+Copyright (C) 2017 Tencent. All rights reserved.
+If you have downloaded a copy of the ncnn binary from Tencent, please note that
+the ncnn binary is licensed under the BSD 3-Clause License.
+
+Redistribution and use in source and binary forms, with or without modification,
+are permitted provided that the following conditions are met:
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+3. Neither the name of the copyright holder nor the names of its contributors
+   may be used to endorse or promote products derived from this software without
+   specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES ARE DISCLAIMED.
+
+-------------------------------------------------------------------------------------
+2. 主体识别模型 —— U^2-NetP
+-------------------------------------------------------------------------------------
+文件：u2netp.ncnn.param / u2netp.ncnn.bin
+网络结构：U^2-Net (U-2-NetP 小型版)，xuebinqin/U-2-Net
+           https://github.com/xuebinqin/U-2-Net
+           许可：Apache License 2.0
+权重来源：danielgatis/rembg 官方发布包中的 u2netp.onnx
+           https://github.com/danielgatis/rembg/releases
+           md5    8e83ca70e441ab06c318d82300c84806
+           sha256 309c8469258dda742793dce0ebea8e6dd393174f89934733ecc8b14c76f4ddd8
+转换：pnnx 20260526，命令 `pnnx u2netp.onnx inputshape=[1,3,320,320]`
+      转换后 sha256 见 AiMaskModels.ets，应用启动加载时会逐一校验
+
+本模型为“显著目标检测”（salient object detection），只能给出全图最显著的一个
+主体，不是可点击任意对象的交互式分割模型，功能描述不得夸大。
+
+-------------------------------------------------------------------------------------
+3. 天空识别模型 —— skysegsmall
+-------------------------------------------------------------------------------------
+文件：skysegsmall_sim-opt-fp16.param / skysegsmall_sim-opt-fp16.bin
+来源：xiongzhu666/Sky-Segmentation-and-Post-processing
+      https://github.com/xiongzhu666/Sky-Segmentation-and-Post-processing
+      MIT License, Copyright (c) 2021 xiongzhu666
+说明：作者提供的为演示级 ncnn 模型，官方文档未对发丝、云层、建筑边缘给出质量
+      保证；本应用仅将其作为“天空”蒙版的初始选区，用户可继续用画笔增删。
+
+-------------------------------------------------------------------------------------
+4. OpenMP 运行时
+-------------------------------------------------------------------------------------
+文件：随 HarmonyOS SDK 提供的 llvm/lib/<triple>/libomp.a，静态链接进 libvivid_ai.so
+来源：Apache License 2.0 with LLVM Exceptions (LLVM OpenMP runtime)

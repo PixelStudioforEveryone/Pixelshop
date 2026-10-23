@@ -1,0 +1,43 @@
+{
+  // 签名材料（.p12 / .p7b / .cer 与口令）不随公开仓库发布。
+  // 在 DevEco Studio 中打开工程后，File > Project Structure > Signing Configs
+  // 勾选 Automatically generate signature，或填入自己的签名配置即可运行。
+  app: {
+    products: [
+      {
+        name: 'default',
+        targetSdkVersion: '26.0.0',
+        compatibleSdkVersion: '6.0.2(22)',
+        runtimeOS: 'HarmonyOS',
+        buildOption: {
+          strictMode: {
+            caseSensitiveCheck: true,
+            useNormalizedOHMUrl: true,
+          },
+        },
+      },
+    ],
+    buildModeSet: [
+      {
+        name: 'debug',
+      },
+      {
+        name: 'release',
+      },
+    ],
+  },
+  modules: [
+    {
+      name: 'entry',
+      srcPath: './entry',
+      targets: [
+        {
+          name: 'default',
+          applyToProducts: [
+            'default',
+          ],
+        },
+      ],
+    },
+  ],
+}

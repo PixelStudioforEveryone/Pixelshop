@@ -1,0 +1,28 @@
+{
+  "string": [
+    {
+      "name": "EntryAbility_label",
+      "value": "Pixelshop"
+    },
+    {
+      "name": "write_media_reason",
+      "value": "Saves exported edits and photos received or downloaded from your camera to the system gallery"
+    },
+    {
+      "name": "wifi_reason",
+      "value": "Reads the camera hotspot and, after your confirmation, switches to the camera Wi-Fi for transfer and control"
+    },
+    {
+      "name": "location_reason",
+      "value": "Scans for the camera Wi-Fi hotspot nearby (the system requires location access to list surrounding networks)"
+    },
+    {
+      "name": "bluetooth_reason",
+      "value": "Discovers the LUMIX camera via Bluetooth and completes the pairing and Wi-Fi handshake"
+    },
+    {
+      "name": "device_id_reason",
+      "value": "Keeps the camera pairing identity stable across app reinstalls"
+    }
+  ]
+}

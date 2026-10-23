@@ -1,0 +1,336 @@
+{
+  "color": [
+    {
+      "name": "start_window_background",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "history_icon",
+      "value": "#26334A"
+    },
+    {
+      "name": "vivid_text_ffffff",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "vivid_text_66748a",
+      "value": "#66748A"
+    },
+    {
+      "name": "vivid_text_526178",
+      "value": "#526178"
+    },
+    {
+      "name": "vivid_text_2464f0",
+      "value": "#2464F0"
+    },
+    {
+      "name": "vivid_text_5e6b7f",
+      "value": "#5E6B7F"
+    },
+    {
+      "name": "vivid_text_111111",
+      "value": "#111111"
+    },
+    {
+      "name": "vivid_text_334158",
+      "value": "#334158"
+    },
+    {
+      "name": "vivid_text_333333",
+      "value": "#333333"
+    },
+    {
+      "name": "vivid_surface_f2f5f9",
+      "value": "#F2F5F9"
+    },
+    {
+      "name": "vivid_text_526078",
+      "value": "#526078"
+    },
+    {
+      "name": "vivid_text_536176",
+      "value": "#536176"
+    },
+    {
+      "name": "vivid_text_8a95a5",
+      "value": "#8A95A5"
+    },
+    {
+      "name": "vivid_text_316cf4",
+      "value": "#316CF4"
+    },
+    {
+      "name": "vivid_text_6c788b",
+      "value": "#6C788B"
+    },
+    {
+      "name": "vivid_text_263247",
+      "value": "#263247"
+    },
+    {
+      "name": "vivid_text_7a8697",
+      "value": "#7A8697"
+    },
+    {
+      "name": "vivid_text_1d283a",
+      "value": "#1D283A"
+    },
+    {
+      "name": "vivid_text_344158",
+      "value": "#344158"
+    },
+    {
+      "name": "vivid_text_7b8798",
+      "value": "#7B8798"
+    },
+    {
+      "name": "vivid_text_657287",
+      "value": "#657287"
+    },
+    {
+      "name": "vivid_text_758195",
+      "value": "#758195"
+    },
+    {
+      "name": "vivid_text_3d4a60",
+      "value": "#3D4A60"
+    },
+    {
+      "name": "vivid_text_5362d9",
+      "value": "#5362D9"
+    },
+    {
+      "name": "vivid_text_7d899a",
+      "value": "#7D899A"
+    },
+    {
+      "name": "vivid_text_ff9800",
+      "value": "#FF9800"
+    },
+    {
+      "name": "vivid_text_c2691b",
+      "value": "#C2691B"
+    },
+    {
+      "name": "vivid_text_ff4444",
+      "value": "#ff4444"
+    },
+    {
+      "name": "vivid_text_66758c",
+      "value": "#66758C"
+    },
+    {
+      "name": "vivid_text_8390a2",
+      "value": "#8390A2"
+    },
+    {
+      "name": "vivid_text_253249",
+      "value": "#253249"
+    },
+    {
+      "name": "vivid_text_718097",
+      "value": "#718097"
+    },
+    {
+      "name": "vivid_text_536178",
+      "value": "#536178"
+    },
+    {
+      "name": "vivid_text_7a879a",
+      "value": "#7A879A"
+    },
+    {
+      "name": "vivid_text_68758a",
+      "value": "#68758A"
+    },
+    {
+      "name": "vivid_text_8590a1",
+      "value": "#8590A1"
+    },
+    {
+      "name": "vivid_text_69768a",
+      "value": "#69768A"
+    },
+    {
+      "name": "vivid_text_1b2536",
+      "value": "#1B2536"
+    },
+    {
+      "name": "vivid_text_667286",
+      "value": "#667286"
+    },
+    {
+      "name": "vivid_text_697488",
+      "value": "#697488"
+    },
+    {
+      "name": "vivid_text_4a5260",
+      "value": "#4A5260"
+    },
+    {
+      "name": "vivid_text_8792a5",
+      "value": "#8792A5"
+    },
+    {
+      "name": "vivid_text_415068",
+      "value": "#415068"
+    },
+    {
+      "name": "vivid_text_8792a3",
+      "value": "#8792A3"
+    },
+    {
+      "name": "vivid_text_1c273a",
+      "value": "#1C273A"
+    },
+    {
+      "name": "vivid_text_657187",
+      "value": "#657187"
+    },
+    {
+      "name": "vivid_text_7c899b",
+      "value": "#7C899B"
+    },
+    {
+      "name": "vivid_text_718096",
+      "value": "#718096"
+    },
+    {
+      "name": "vivid_text_5262ec",
+      "value": "#5262EC"
+    },
+    {
+      "name": "vivid_surface_dce2ec",
+      "value": "#DCE2EC"
+    },
+    {
+      "name": "vivid_surface_e7ecf4",
+      "value": "#E7ECF4"
+    },
+    {
+      "name": "vivid_surface_ffffff",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "vivid_text_000000",
+      "value": "#000000"
+    },
+    {
+      "name": "vivid_text_37b27b",
+      "value": "#37B27B"
+    },
+    {
+      "name": "vivid_text_a9b2be",
+      "value": "#A9B2BE"
+    },
+    {
+      "name": "vivid_text_425168",
+      "value": "#425168"
+    },
+    {
+      "name": "vivid_text_7a8798",
+      "value": "#7A8798"
+    },
+    {
+      "name": "vivid_text_243047",
+      "value": "#243047"
+    },
+    {
+      "name": "vivid_text_a6afbc",
+      "value": "#A6AFBC"
+    },
+    {
+      "name": "vivid_text_1c2638",
+      "value": "#1C2638"
+    },
+    {
+      "name": "vivid_text_64748b",
+      "value": "#64748B"
+    },
+    {
+      "name": "vivid_text_1e8e5a",
+      "value": "#1E8E5A"
+    },
+    {
+      "name": "vivid_text_657286",
+      "value": "#657286"
+    },
+    {
+      "name": "vivid_text_66758b",
+      "value": "#66758B"
+    },
+    {
+      "name": "vivid_text_c9d7f2",
+      "value": "#C9D7F2"
+    },
+    {
+      "name": "vivid_text_4b5e78",
+      "value": "#4B5E78"
+    },
+    {
+      "name": "vivid_text_19885a",
+      "value": "#19885A"
+    },
+    {
+      "name": "vivid_text_8894a5",
+      "value": "#8894A5"
+    },
+    {
+      "name": "vivid_text_249567",
+      "value": "#249567"
+    },
+    {
+      "name": "vivid_text_b3bccb",
+      "value": "#B3BCCB"
+    },
+    {
+      "name": "vivid_text_c4485c",
+      "value": "#C4485C"
+    },
+    {
+      "name": "vivid_text_6d7890",
+      "value": "#6D7890"
+    },
+    {
+      "name": "vivid_text_8b96a6",
+      "value": "#8B96A6"
+    },
+    {
+      "name": "vivid_text_637187",
+      "value": "#637187"
+    },
+    {
+      "name": "vivid_surface_dce4ef",
+      "value": "#DCE4EF"
+    },
+    {
+      "name": "vivid_text_f4f7fc",
+      "value": "#F4F7FC"
+    },
+    {
+      "name": "vivid_text_b8bec7",
+      "value": "#B8BEC7"
+    },
+    {
+      "name": "vivid_text_9298a2",
+      "value": "#9298A2"
+    },
+    {
+      "name": "vivid_text_e5e7eb",
+      "value": "#E5E7EB"
+    },
+    {
+      "name": "vivid_text_7b879a",
+      "value": "#7B879A"
+    },
+    {
+      "name": "vivid_surface_e8ecff",
+      "value": "#E8ECFF"
+    },
+    {
+      "name": "vivid_surface_e3e8f0",
+      "value": "#E3E8F0"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/GpuValidationPage",
+    "pages/EditorPage",
+    "pages/LutDetailPage",
+    "pages/LutImportConfirmPage",
+    "pages/LutTransferPage",
+    "pages/LumixCameraControlPage",
+    "pages/NikonCameraControlPage",
+    "pages/SonyCameraControlPage",
+    "pages/FujifilmCameraControlPage",
+    "pages/CanonCameraControlPage",
+    "pages/LumixImageTransferPage",
+    "pages/NikonImageTransferPage",
+    "pages/SonyImageTransferPage",
+    "pages/FujifilmImageTransferPage",
+    "pages/CanonImageTransferPage",
+    "pages/FujifilmFirmwarePage",
+    "pages/CanonFirmwarePage",
+    "pages/OfficialLutListPage",
+    "pages/OfficialLutDetailPage",
+    "pages/OfficialCreatorDetailPage",
+    "pages/NikonCloudDetailPage"
+  ]
+}

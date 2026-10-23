@@ -1,0 +1,19 @@
+大光圈模拟 · 深度模型
+
+文件
+  dptv2_s.param / dptv2_s.bin
+    Depth Anything V2 Small（DINOv2-S 主干，518×518 输入，输出同尺寸视差/逆深度）。
+    模型：DepthAnything/Depth-Anything-V2（Apache-2.0）。
+    ncnn 转换：FeiGeChuanShu/ncnn-android-depth_anything（作者发布的 ncnn 图）。
+    用途：为「大光圈」阶段提供单通道深度图；值越大表示越近。
+
+推理代码
+  entry/src/main/cpp/vivid_ai.cpp（ncnn, BSD-3-Clause，静态链接）
+
+许可
+  Depth Anything V2 权重与代码按 Apache-2.0 提供；ncnn 按 BSD-3-Clause 提供。
+  本应用不修改权重，只在设备本地离线推理，不上传任何用户图像。
+
+校验（与 BokehDepthModel.ets 中的清单一致）
+  param 35703 bytes  sha256 A62DF265A01C961B20406BE3B0B54D98C5D69BEB8C9779BB4E5428C89BF895BB
+  bin  50592872 bytes sha256 C6A58621BB28F6E2F2EF5580D11699C09E492CF7D97A4AF4F643A8A8169F3197

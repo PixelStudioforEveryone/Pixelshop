@@ -1,0 +1,13 @@
+{
+  "source": {
+    "sourceKind": "linear_camera_rgb",
+    "sourceName": "fixture_only_not_a_RW2_decode",
+    "colorSpace": "camera-native-linear-unknown",
+    "transferFunction": "linear"
+  },
+  "samples": [
+    [0.18, 0.18, 0.18],
+    [0.42, 0.28, 0.22],
+    [0.08, 0.32, 0.76]
+  ]
+}

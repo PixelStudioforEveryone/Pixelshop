@@ -1,0 +1,15 @@
+{
+  "app": {
+    "bundleName": "com.example.vivid_diary",
+    "vendor": "Pixelshop",
+    "versionCode": 4300000,
+    "versionName": "4.3.0.0",
+    "buildVersion": "2",
+    "icon": "$media:vivid_app_icon",
+    "label": "$string:app_name"
+  }
+}
+
+
+
+

@@ -1,0 +1,2 @@
+作者：Fujifilm
+描述：基于Pixel F-log2（松下Vision改），调色界面配置文件调整为Pixel F-log2后使用，NC吃光线，弱光环境下效果不好，记得向右曝光使用

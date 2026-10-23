@@ -1,0 +1,50 @@
+[
+  {
+    "path": "Lut/portrait/sunny_mint_port.cube",
+    "category": "人像",
+    "name": "晴天薄荷",
+    "metadata": "Lut/portrait/sunny_mint_port.txt"
+  },
+  {
+    "path": "Lut/portrait/seaside_portrait.cube",
+    "category": "人像",
+    "name": "海边人像",
+    "metadata": "Lut/portrait/seaside_portrait.txt"
+  },
+  {
+    "path": "Lut/portrait/snow_portrait.cube",
+    "category": "人像",
+    "name": "雪天人像",
+    "metadata": "Lut/portrait/snow_portrait.txt"
+  },
+  {
+    "path": "Lut/portrait/healing_light.cube",
+    "category": "人像",
+    "name": "治愈光影",
+    "metadata": "Lut/portrait/healing_light.txt"
+  },
+  {
+    "path": "Lut/nature/film_impression.cube",
+    "category": "自然",
+    "name": "胶片印象",
+    "metadata": "Lut/nature/film_impression.txt"
+  },
+  {
+    "path": "Lut/nature/fresh_food.cube",
+    "category": "自然",
+    "name": "清新美食",
+    "metadata": "Lut/nature/fresh_food.txt"
+  },
+  {
+    "path": "Lut/nature/candy_color_style.cube",
+    "category": "自然",
+    "name": "Candy color style",
+    "metadata": "Lut/nature/candy_color_style.txt"
+  },
+  {
+    "path": "Lut/nature/agfaphoto_lebox.cube",
+    "category": "自然",
+    "name": "AgfaPhoto LeBox",
+    "metadata": ""
+  }
+]

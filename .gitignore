@@ -1,0 +1,64 @@
+/node_modules
+/oh_modules
+/local.properties
+/.idea
+**/build
+/.hvigor
+.cxx
+/.clangd
+/.clang-format
+/.clang-tidy
+**/.test
+/.appanalyzer
+
+# --- 以下为工具链缓存、构建产物与调试数据，都不是源码 ---------------------------
+#
+# 整个工作区约 11.9 GB / 91073 个文件，其中绝大部分是运行日志、反编译产物和
+# 构建缓存。仓库只保留可读、可复现的源码与脚本，这些全部排除。
+
+# 构建缓存 / 依赖缓存
+/.hvigor-user/
+/.dsh-hvigor-home/
+/.npm-cache/
+/.dsh-npm-cache/
+/.cache/
+/tools/dsh-hvigor/
+
+# 调试与抓包数据（tmp/ 一个目录就有 7.6 GB）
+/tmp/
+/tmp-*/
+/null/
+*.dmp
+
+# 运行日志（单文件可达 86 MB）
+_sony_*.txt
+vivid_hilog_*.txt
+tmp-*.txt
+*.log
+
+# 界面/布局调试快照
+vivid_*.json
+layout_*.json
+/.dsh-probe-out.txt
+
+# pip 的临时工作目录（安装依赖时留在仓库根目录的残留）
+pip-*/
+
+# 逆向分析与审计产物（合计约 1.8 GB）
+/.analysis-tools/
+/analysis/
+# CodeGenie 工具缓存：里面自带一个 core.worktree 指向本仓库的 .git，
+# 父仓库又把它记成 submodule 指针，于是 git status 会无限递归、十几分钟不返回。
+.codegenie/
+
+
+# --- 调试/临时数据（2026-10-18 清理）---
+.dsh-shots/
+.dsh-log-*.log
+.tmp-hvigor/
+.tmp-nikon/
+*.damaged
+/tmp/
+
+# 大光圈深度模型（48 MB 二进制，不入库；本地保留供构建打包）
+entry/src/main/resources/rawfile/depth/*.bin

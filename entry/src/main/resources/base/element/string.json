@@ -1,0 +1,43 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "面向 LUMIX 的 HarmonyOS 无损影像工作台"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "连接相机、管理 RAW、调色与 LUT"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "Pixelshop"
+    },
+    {
+      "name": "read_media_reason",
+      "value": "用于在 Pixelshop 作品库中显示并编辑你选择的照片"
+    },
+    {
+      "name": "write_media_reason",
+      "value": "用于将编辑导出的照片、以及从相机接收或下载的照片保存到系统图库"
+    },
+    {
+      "name": "wifi_reason",
+      "value": "用于读取相机热点信息并在你确认后切换到相机 Wi-Fi 完成图片传输与控制"
+    },
+    {
+      "name": "location_reason",
+      "value": "用于扫描附近的相机 Wi-Fi 热点（系统要求定位权限才能获取周边网络列表）"
+    },
+    {
+      "name": "bluetooth_reason",
+      "value": "用于发现附近的 LUMIX 相机蓝牙并完成配对与配网握手"
+    },
+    {
+      "name": "device_id_reason",
+      "value": "用于在重装应用后保持与相机的配对标识一致"
+    }
+  ]
+}
+
+
+
