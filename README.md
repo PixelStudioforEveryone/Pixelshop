@@ -4,6 +4,18 @@
 
 Vivid ("像素工坊", vendor `Pixelshop`) is a HarmonyOS imaging workspace built with ArkTS + ArkUI: photo library, camera connectivity (Bluetooth pairing + Wi-Fi transfer + remote control), background transfer, LUT style library and lossless parameter editing.
 
+## Screenshots
+
+Captured on a HarmonyOS phone and a 2-in-1 during device testing. Masking tests are not included.
+
+| Library | Editor (LUT applied) |
+|:---:|:---:|
+| <img src="docs/screenshots/01-library.jpg" width="300" alt="Library"> | <img src="docs/screenshots/02-editor-look.jpg" width="300" alt="Editor"> |
+
+| 2-in-1 workspace | LUT import |
+|:---:|:---:|
+| <img src="docs/screenshots/03-tablet-2in1.jpg" width="460" alt="2-in-1 workspace"> | <img src="docs/screenshots/04-lut-import.jpg" width="300" alt="LUT import"> |
+
 ## Camera protocol lines
 
 Five brands, seven protocol lines. Each line has its own implementation under `entry/src/main/ets/services/` and its own report under `docs/protocol-reports/` (Chinese; English translations in `docs/protocol-reports/en/`):

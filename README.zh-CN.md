@@ -1,6 +1,20 @@
 # Pixelshop · Vivid for HarmonyOS
 
+[English](README.md) | **简体中文**
+
 Vivid（应用名「像素工坊」，vendor `Pixelshop`）是一个 HarmonyOS 影像工作台：ArkTS + ArkUI，覆盖图库、相机连接（蓝牙配对 + Wi-Fi 传输 + 遥控）、后台传输、LUT 风格库和无损参数编辑。
+
+## 界面截图
+
+真机测试时截取，手机与 2in1 两种形态；蒙版相关测试图未收录。
+
+| 作品库 | 编辑器（套用 LUT） |
+|:---:|:---:|
+| <img src="docs/screenshots/01-library.jpg" width="300" alt="作品库"> | <img src="docs/screenshots/02-editor-look.jpg" width="300" alt="编辑器"> |
+
+| 2in1 工作台 | 导入 LUT |
+|:---:|:---:|
+| <img src="docs/screenshots/03-tablet-2in1.jpg" width="460" alt="2in1 工作台"> | <img src="docs/screenshots/04-lut-import.jpg" width="300" alt="导入 LUT"> |
 
 ## 相机协议路线
 
@@ -16,7 +30,7 @@ Vivid（应用名「像素工坊」，vendor `Pixelshop`）是一个 HarmonyOS �
 | 6 | 富士 X | BLE XApp GATT（老协议 / RED） | 私有 PTP-IP :55740/55741/55742 | PTP 操作码 + 属性码 | [06](docs/protocol-reports/06-fujifilm-x.md) |
 | 7 | 尼康 Z | BLE SnapBridge + LSS 认证 | ISO 15740 PTP/IP :15740 | 取景 `0x9201` / 快门 `0x9207` | [07](docs/protocol-reports/07-nikon-z.md) |
 
-总览与横向对照见 [`docs/protocol-reports/00-overview.md`](docs/protocol-reports/00-overview.md)。
+总览与横向对照见 [`docs/protocol-reports/00-overview.md`](docs/protocol-reports/00-overview.md)；英文版在 [`docs/protocol-reports/en/`](docs/protocol-reports/en/00-overview.md)（每份报告页首可切换中英文）。
 
 > 本仓库是公开版本：**不包含** `server/`（信令、日志接收、LUT 市场后端）与服务端脚本，所有服务端地址已替换为占位符 `https://your-server.example.com`；赞赏二维码资源与相关页面片段已移除。相机协议部分（BLE / PTP-IP / HTTP）不依赖任何自建服务端。
 
